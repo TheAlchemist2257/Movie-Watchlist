@@ -70,6 +70,7 @@ searchBtn.addEventListener('click', function() {
                     </div>
                 </div>
                 `
+                document.getElementById("container").style.display = 'none'
                 mainContainer.innerHTML = movieList
             })  
              
