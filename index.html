@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie Watchlist</title>
+</head>
+<body>
+    <header>
+        <nav class="search navbar">
+            <div class="logo">
+                <h1>Find your film</h1>
+                <ul>
+                   <li><a href="watchlist.html">My Watchlist</a></li>
+                </ul>
+            </div>  
+        </nav>
+        <div id="search-bar" class="search-bar">
+                <i class="fa-solid search fa-magnifying-glass" ></i>
+                <input id="movie-input" type="text" placeholder="Search for a movies">
+                <button id="search-btn" class="search-button" type="submit">Search</button>
+        </div>
+    </header>
+    <main id="main-container" class="main-container">
+        <div id="container" class="container">
+            <i class="fa-solid fa-film"></i>
+            <p>Start exploring</p>
+        </div>
+    </main>
+    <script src="index.js" type="module" ></script>
+</body>
+</html>
